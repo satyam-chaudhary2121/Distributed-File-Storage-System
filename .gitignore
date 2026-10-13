@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data: metadata DB, node chunk stores, logs, pid files
+data/
+run/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Benchmark / demo artefacts
+bench-results/
+demo-output/
+
+# Secrets
+.env
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
